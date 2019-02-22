@@ -89,7 +89,7 @@ Colors: Bright and bold
 Typography: Interesting header with readable text
 Photos: Show how the space is being used, highlight collaboration.
 
-
+For this project, the layout and spacing will be important to convey the modern, cool vibe the client is looking for. I'll prominently display HD photos of people collaborating in the space to quickly evoke the co-operative nature of the work-space. A bold color palette and high-contrast typography will be used to convey a sense of fun and energy that will set this site apart from more corporate spaces. An inclusion of blog posts and an event calendar will be used to foster inclusivity for current and potential co-workers alike.
 
 
 ### Technologies and Resources
