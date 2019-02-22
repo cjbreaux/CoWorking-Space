@@ -25,8 +25,10 @@ This project is intended to mimic the freelance process of designing and develop
 * "Our site should also show what amenities we have. We have an on-site coffee counter, both communal working areas and private offices, high-speed internet, printing and faxing services, and we usually have a fun, optional activity on Thursday afternoons. Like yoga, maybe a fun complementary food, or like...I don't know, maybe even crafts sometimes (come make your own mini desktop terrarium)?"
 
 
-### Images
-
+### Initial Sketches
+![overview of the landing pages](img/sketch1.jpg)
+![ammenities page](img/sketch2.jpg)
+![pricing structure](img/sketch3.jpg)
 
 
 
