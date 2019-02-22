@@ -38,9 +38,14 @@ This project is intended to mimic the freelance process of designing and develop
 
 
 
+### User Personas
+
+
 ### Target Users
+
 * Freelancers
 * Digital Nomads
+* Craftspeople/Artisans
 * Small Business Owners
 * Current Users of the Co-working space
 * Co-working Space Owners
@@ -67,6 +72,23 @@ This project is intended to mimic the freelance process of designing and develop
 * As an owner of the co-working space, I need statistics about traffic and use of the site to better target my marketing efforts.
 
 * As an owner of the co-working space, I need a way to add events and photos easily to keep the information on the site current.
+
+### Research and Brainstorming
+I went looking for inspiration from other co-working spaces in San Francisco and Austin and made notes on my impressions. My hope was to find sites that meshed with the client's requirements.
+
+Sites like https://thevault.co/ and http://madeatcraft.com/ used high-quality photos of people working together and bright bold colors that added to a sense of fun.
+
+Another site http://www.eastsidecollective.com/ did a great job with conveying a clean, modern approach but I think it would be to sterile for this particular clients' needs.
+
+Finally, https://www.spacesworks.com/ was notable for its clear navigability and inclusion of features I would hope to implement including a calendar section and blog. Aesthetically, it seemed a bit too dry for this project.
+
+The big takeaways for me were how important it was to highlight people actually working together instead of just empty rooms. Also, the palette of the site should use bright colors to convey a positive, fun energy. The initial impression when visiting a site is crucial to the user experience.
+
+Layout: Use space and arrangement to evoke the modern, cool vibe.
+Colors: Bright and bold
+Typography: Interesting header with readable text
+Photos: Show how the space is being used, highlight collaboration.
+
 
 
 
