@@ -30,17 +30,15 @@ This project is intended to mimic the freelance process of designing and develop
 ![ammenities page](img/sketch2.jpg)
 ![pricing structure](img/sketch3.jpg)
 
+#### Mobile Versions
+
+![overview of the landing pages](img/Mobile.png)
+![overview of the landing pages](img/Tablet.png)
 
 
 #### Desktop Version
 
-
-
-#### Mobile Version
-
-
-
-### User Personas
+![overview of the landing pages](img/Desktop.png)
 
 
 ### Target Users
@@ -100,16 +98,18 @@ For this project, the layout and spacing will be important to convey the modern,
 
 ### Responsiveness
 
-
+This site will be responsive across all devices.
 
 ### Setup Instructions
 
-
+* Clone file from https://github.com/cjbreaux/CoWorking-Space.git
+* (For Mac Users) Open co-working-mockup.sketch
 
 
 ### Roadmap
 
-
+* Wireframes for additional site pages.
+* Full site buildout.
 
 ### License
 
