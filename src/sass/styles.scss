@@ -17,6 +17,21 @@
   background-color: blue;
   width: 100%;
   height: 30em;
+  display: grid;
+  grid-template: repeat(3, 200px) / repeat(3/ 200px);
+  grid-template-areas:
+  "logo logo logo"
+  "logo logo logo"
+  "logo logo logo";
+  img {
+    grid-area: logo;
+    width: 100%;
+    object-fit: cover;
+    max-height: 100%;
+
+
+
+  }
 }
 
 .carousel {
