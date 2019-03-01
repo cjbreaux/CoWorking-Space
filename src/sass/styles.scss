@@ -75,6 +75,36 @@
   background-color: orange;
   width: 100%;
   height: 20em;
+  display: grid;
+  grid-template-areas:
+  "title title"
+  "event1 event2"
+  "event3 event4"
+}
+
+.event-title {
+  background-color: aqua;
+  grid-area: title;
+}
+
+.event-card1 {
+  grid-area: event1;
+  @include card-format;
+}
+
+.event-card2{
+  grid-area: event2;
+  @include card-format;
+}
+
+.event-card3 {
+  grid-area: event3;
+  @include card-format;
+}
+
+.event-card4 {
+  grid-area: event4;
+  @include card-format;
 }
 
 
@@ -83,10 +113,6 @@
   background-color: pink;
   width: 100%;
   height: 20em;
-  // display: grid;
-  // grid-template-areas:
-  // ". title ."
-  // "image text text"
 
 }
 
