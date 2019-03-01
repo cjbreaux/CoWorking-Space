@@ -83,6 +83,26 @@
   background-color: pink;
   width: 100%;
   height: 20em;
+  display: grid;
+  grid-template-areas:
+  ". title ."
+  "image text text"
+
+}
+
+.blog-title {
+  grid-area: title;
+}
+
+.blog-image {
+  grid-area: image;
+  img {
+    width: 100%;
+  }
+}
+
+.blog-text {
+  grid-area: text;
 }
 
 .flex-container {
