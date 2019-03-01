@@ -1,3 +1,4 @@
+@import 'abstracts/_variables';
 @import 'abstracts/_mixins';
 @import 'media/_queries';
 
@@ -9,7 +10,7 @@
 .header {
   background-color: red;
   width: 100%;
-  height: 2em;
+  height: $header-size;
   position: fixed;
 }
 
@@ -17,7 +18,7 @@
 
   background-color: blue;
   width: 100%;
-  height: 30em;
+  height: $logo-size;
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(3, 1fr);
 }
@@ -45,13 +46,13 @@
 .carousel {
   background-color: yellow;
   width: 100%;
-  height: 20em;
+  height: $carousel-size;
 }
 
 .pricing {
   background-color: purple;
   width: 100%;
-  height: 6em;
+  height: $pricing-size;
   display: grid;
   grid-template: 1fr / 1fr 300px 1fr;
 }
@@ -74,7 +75,7 @@
 .events {
   background-color: orange;
   width: 100%;
-  height: 20em;
+  height: $events-size;
   display: grid;
   grid-template-areas:
   "title title"
@@ -112,7 +113,7 @@
 .blog {
   background-color: pink;
   width: 100%;
-  height: 20em;
+  height: $blog-size;
 
 }
 
@@ -141,5 +142,5 @@
 .footer {
   background-color: green;
   width: 100%;
-  height: 5em;
+  height: $footer-size;
 }
