@@ -67,22 +67,38 @@ module.exports = {
 
     new HtmlWebpackPlugin({
     template: './src/html/amenities.html',
-    filename: 'press.html'
+    filename: 'amenities.html',
+    minify: {
+      removeComments: true,
+      collapseWhitespace: true
+      }
     }),
 
     new HtmlWebpackPlugin({
     template: './src/html/blog.html',
-    filename: 'preview.html'
+    filename: 'blog.html',
+    minify: {
+      removeComments: true,
+      collapseWhitespace: true
+      }
     }),
 
     new HtmlWebpackPlugin({
     template: './src/html/events.html',
-    filename: 'blog.html'
+    filename: 'events.html',
+    minify: {
+      removeComments: true,
+      collapseWhitespace: true
+      }
     }),
 
     new HtmlWebpackPlugin({
     template: './src/html/pricing.html',
-    filename: 'theTeam.html'
+    filename: 'pricing.html',
+    minify: {
+      removeComments: true,
+      collapseWhitespace: true
+      }
     }),
 
     new UglifyJsPlugin(),
