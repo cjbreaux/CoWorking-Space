@@ -26,19 +26,19 @@ This project is intended to mimic the freelance process of designing and develop
 
 
 ### Initial Sketches
-![overview of the landing pages](img/sketch1.jpg)
-![amenities page](img/sketch2.jpg)
-![pricing structure](img/sketch3.jpg)
+![overview of the landing pages](src/assets/img/sketch1.jpg)
+![amenities page](src/assets/img/sketch2.jpg)
+![pricing structure](src/assets/img/sketch3.jpg)
 
 #### Mobile Versions
 
-![overview of the landing pages](img/Mobile.png)
-![overview of the landing pages](img/Tablet.png)
+![overview of the landing pages](src/assets/img/Mobile.png)
+![overview of the landing pages](src/assets/img/Tablet.png)
 
 
 #### Desktop Version
 
-![overview of the landing pages](img/Desktop.png)
+![overview of the landing pages](src/assets/img/Desktop.png)
 
 ### User Personas
 | Name | Occupation | Needs  | Pain-Points |
