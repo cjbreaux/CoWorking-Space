@@ -83,26 +83,29 @@
   background-color: pink;
   width: 100%;
   height: 20em;
-  display: grid;
-  grid-template-areas:
-  ". title ."
-  "image text text"
+  // display: grid;
+  // grid-template-areas:
+  // ". title ."
+  // "image text text"
 
 }
 
 .blog-title {
-  grid-area: title;
+  text-align: center;
 }
 
 .blog-image {
-  grid-area: image;
+
   img {
-    width: 100%;
+    width: 45%;
+    float:left;
+    min-width: 250px;
+    max-height: 18em;
   }
 }
 
 .blog-text {
-  grid-area: text;
+  // grid-area: text;
 }
 
 .flex-container {
