@@ -12,7 +12,7 @@ Chris Breaux
 
 ### Description
 
-This project is intended to mimic the freelance process of designing and developing a website for a client. In this case, the client is a newly constructed co-working space who have a clear vision for their space and website. Given the following conversation snippets, this project is an attempt to meet the clients' needs.
+This project is intended to mimic the freelance process of designing and developing a website for a client. In this case, the client is a newly constructed co-working space that has a clear vision for their space and website. Along with a few screenshots of the space, we were given the following conversation snippets:
 
 * "We just finished remodeling our space. We're really proud of it. We want our online presence to mirror our in-person presence, to attract people that would really enjoy working in our environment." (They later email you the following photos detailing their space's aesthetic: coffee counter area, communal workspace, one of our meeting areas, front entrance, front entrance looking out).
 
@@ -27,7 +27,7 @@ This project is intended to mimic the freelance process of designing and develop
 
 ### Initial Sketches
 ![overview of the landing pages](img/sketch1.jpg)
-![ammenities page](img/sketch2.jpg)
+![amenities page](img/sketch2.jpg)
 ![pricing structure](img/sketch3.jpg)
 
 #### Mobile Versions
@@ -40,6 +40,12 @@ This project is intended to mimic the freelance process of designing and develop
 
 ![overview of the landing pages](img/Desktop.png)
 
+### User Personas
+| Name | Occupation | Needs  | Pain-Points |
+| ---- | ---------- | ------ | ----------- |
+| **Xavier**   | Graphic Designer | Flexible pricing <br> Collaborative atmosphere <br>  | High costs |
+| **Laurie**     | Author    |   Coffee <br> Naturally lit workspaces | Parking <br> Tech-averse |
+| **Don** | Small Business Owner      |    Office supplies and equipment <br> High-speed internet <br> Conference rooms | Clutter <br> Scheduling |
 
 ### Target Users
 
@@ -82,7 +88,7 @@ Another site http://www.eastsidecollective.com/ did a great job with conveying a
 
 Finally, https://www.spacesworks.com/ was notable for its clear navigability and inclusion of features I would hope to implement including a calendar section and blog. Aesthetically, it seemed a bit too dry for this project.
 
-The big takeaways for me were how important it was to highlight people actually working together instead of just empty rooms. Also, the palette of the site should use bright colors to convey a positive, fun energy. The initial impression when visiting a site is crucial to the user experience.
+The big takeaways for me were how important it was to highlight people actually working together instead of just empty rooms. Also, the palette of the site should use bright colors to convey a positive, fun atmosphere. The initial impression when visiting a site is crucial to the user experience.
 
 Layout: Use space and arrangement to evoke the modern, cool vibe.
 Colors: Bright and bold
@@ -95,15 +101,27 @@ For this project, the layout and spacing will be important to convey the modern,
 ### Technologies and Resources
 
 * Sketch v50.2
+* HTML  
+* CSS
+* JavaScript
+* Webpack v4.0.1
 
 ### Responsiveness
 
 This site will be responsive across all devices.
 
 ### Setup Instructions
-
 * Clone file from https://github.com/cjbreaux/CoWorking-Space.git
-* (For Mac Users) Open co-working-mockup.sketch
+* Navigate to the cloned folder in the terminal.
+* While in the project folder, run the following in the terminal:
+ ```html
+$ npm install
+```
+* After the files have downloaded, run the following:
+```html
+$ npm start
+```
+
 
 
 ### Roadmap
