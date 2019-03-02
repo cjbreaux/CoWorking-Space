@@ -92,6 +92,9 @@
 button {
   color: $myBlack;
   font-family: $hind;
+  font-size: 1.5em;
+  background-color: $mySilver;
+  border-radius: 15px;
 }
 
 .events {
@@ -153,6 +156,7 @@ button {
 .blog-image {
 
   img {
+    opacity: 0.6;
     width: 45%;
     float:left;
     min-width: 250px;
