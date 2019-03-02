@@ -32,20 +32,20 @@ This project is intended to mimic the freelance process of designing and develop
 
 #### Mobile Versions
 
-![overview of the landing pages](src/assets/img/Mobile.png)
-![overview of the landing pages](src/assets/img/Tablet.png)
+![overview of the landing pages](src/assets/img/mob.png)
+![overview of the landing pages](src/assets/img/tab.png)
 
 
 #### Desktop Version
 
-![overview of the landing pages](src/assets/img/Desktop.png)
+![overview of the landing pages](src/assets/img/desk.png)
 
 ### User Personas
 | Name | Occupation | Needs  | Pain-Points |
 | ---- | ---------- | ------ | ----------- |
 | **Xavier**   | Graphic Designer | Flexible pricing <br> Collaborative atmosphere <br>  | High costs |
 | **Laurie**     | Author    |   Coffee <br> Naturally lit workspaces | Parking <br> Tech-averse |
-| **Don** | Small Business Owner      |    Office supplies and equipment <br> High-speed internet <br> Conference rooms | Clutter <br> Scheduling |
+| **Donna** | Small Business Owner      |    Office supplies and equipment <br> High-speed internet <br> Conference rooms | Clutter <br> Scheduling |
 
 ### Target Users
 
