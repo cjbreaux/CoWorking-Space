@@ -78,6 +78,7 @@
   @include flex-center;
   flex-direction: column;
   color: $myBlack;
+  font-size: 1.5em;
   font-family: 'Hind Madurai', sans-serif;
 }
 
@@ -146,6 +147,7 @@ button {
   text-align: center;
   color: $myBlack;
   font-size: 2em;
+  font-family: $hind;
 }
 
 .blog-image {
@@ -155,11 +157,14 @@ button {
     float:left;
     min-width: 250px;
     max-height: 18em;
+    margin-right:1em;
+    margin-bottom: 0.2em;
   }
 }
 
 .blog-text {
-  // grid-area: text;
+  color: $myBlack;
+  font-family: $hind;
 }
 
 .flex-container {
