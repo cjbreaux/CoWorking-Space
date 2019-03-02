@@ -10,12 +10,21 @@
   padding: 0;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 0 auto;
+  max-width: 120em;
+}
+
 .header {
   background-color: $myBlue;
   width: 100%;
   height: $header-size;
   position: fixed;
   z-index: 20;
+  max-width: 120em;
 }
 
 .logo {
