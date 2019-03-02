@@ -107,6 +107,7 @@ button {
 .event-title {
   background-color: $myBlack;
   font-family: $hind;
+  font-size: 2em;
   color: $mySilver;
   grid-area: title;
   text-align:center;
@@ -143,6 +144,8 @@ button {
 
 .blog-title {
   text-align: center;
+  color: $myBlack;
+  font-size: 2em;
 }
 
 .blog-image {
