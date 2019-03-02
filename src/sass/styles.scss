@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai:400,600');
 @import 'abstracts/_variables';
 @import 'abstracts/_mixins';
 @import 'media/_queries';
@@ -10,7 +11,7 @@
 }
 
 .header {
-  background-color: red;
+  background-color: $myBlue;
   width: 100%;
   height: $header-size;
   position: fixed;
@@ -19,7 +20,7 @@
 
 .logo {
 
-  background-color: blue;
+  background-color: $mySilver;
   width: 100%;
   height: $logo-size;
   display: grid;
@@ -32,6 +33,7 @@
   h1 {
     font-family: 'Fira Sans Extra Condensed', sans-serif;
     font-size: 5em;
+    color: $myBlack;
     z-index: 10;
   }
 }
@@ -39,6 +41,7 @@
 .logo-img {
   grid-area: 1 / 1 / -1 / -1;
   img {
+    opacity: 0.6;
     width:100%;
     object-fit: cover;
     max-height: 30em;
@@ -54,7 +57,7 @@
 }
 
 .pricing {
-  background-color: purple;
+  background-color: $myRed;
   width: 100%;
   height: $pricing-size;
   display: grid;
@@ -65,6 +68,8 @@
   grid-area: 1 / 2 / 2 / 3;
   @include flex-center;
   flex-direction: column;
+  color: $myBlack;
+  font-family: 'Hind Madurai', sans-serif;
 }
 
 .info-button {
@@ -72,12 +77,15 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
+button {
+  color: $myBlack;
+  font-family: $hind;
+}
 
 .events {
-  background-color: orange;
+  background-color: $myBlack;
   width: 100%;
   height: $events-size;
   display: grid;
@@ -88,8 +96,11 @@
 }
 
 .event-title {
-  background-color: aqua;
+  background-color: $myBlack;
+  font-family: $hind;
+  color: $mySilver;
   grid-area: title;
+  text-align:center;
 }
 
 .event-card1 {
@@ -115,7 +126,7 @@
 
 
 .blog {
-  background-color: pink;
+  background-color: $mySilver;
   width: 100%;
   height: $blog-size;
 
@@ -144,7 +155,7 @@
 }
 
 .footer {
-  background-color: green;
+  background-color: $myBlue;
   width: 100%;
   height: $footer-size;
 }
